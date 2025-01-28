@@ -41,6 +41,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.idea
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -53,6 +54,7 @@ web_modules/
 
 # Optional eslint cache
 .eslintcache
+
 
 # Optional stylelint cache
 .stylelintcache
@@ -128,3 +130,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
