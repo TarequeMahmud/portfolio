@@ -1,3 +1,27 @@
-.container {
+.header {
+  width: 100%;
+  height: 30rem;
+  min-height: 15rem;
+  max-height: 30rem;
+  margin: 0;
+  padding: 0;
+  background-color: #95de15;
+  position: relative;
+  border-bottom: #05155e 2px solid;
+  background-image: url("/hero-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  .nav-logo-container {
+    position: absolute;
+    top: 20px;
+    left: calc(2% - 2 * 0.5%);
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 98%;
+    height: 20%;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+  }
 }
