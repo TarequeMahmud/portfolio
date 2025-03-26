@@ -1,0 +1,9 @@
+{
+  "navbarItems": [
+    { "name": "Home", "link": "/" },
+    { "name": "Projects", "link": "/projects" },
+    { "name": "Resources", "link": "/resources" },
+    { "name": "About", "link": "/about" },
+    { "name": "Contact", "link": "/contact" }
+  ]
+}

@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header/Header";
-import "./globals.css";
+import { IBM_Plex_Sans } from "next/font/google";
+import "@/styles/globals.scss";
+
+const ibm = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Tareque Mahmud",
@@ -14,8 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Header />
-      <body>{children}</body>
+      <body className={`${ibm.className} antialiased`}>
+        <div className="main">
+          <Header />
+          <div className="container">{children}</div>\
+          <div className="footer"></div>
+        </div>
+      </body>
     </html>
   );
 }
