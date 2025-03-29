@@ -23,8 +23,10 @@ export default function RootLayout({
       <body className={`${ibm.className} antialiased`}>
         <div className="main">
           <Header />
-          <div className="container">{children}</div>\
-          <div className="footer"></div>
+          <div className="container">{children}</div>
+          <div className="footer">
+            <p>This site is built with Next.js, SCSS and PostgreSQL</p>
+          </div>
         </div>
       </body>
     </html>
