@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.scss";
-import { navbarItems } from "@/datas/navbar.json";
+import navbarItems from "@/datas/navbar.json";
 
 const Navbar = () => {
   //   const handleClick = (link, name) => {
@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <ul>
-        {navbarItems.map((items, index) => (
+        {navbarItems.navbarItems.map((items, index) => (
           <li key={index}>{items.name}</li>
         ))}
       </ul>

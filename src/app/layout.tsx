@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ibm.className} antialiased`}>
+      <body className={ibm.className}>
         <div className="main">
           <Header />
           <div className="container">{children}</div>

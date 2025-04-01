@@ -1,14 +1,12 @@
 @use "@/styles/base" as *;
 
 .home {
-  position: absolute;
   height: $full;
   width: $full;
 }
 
 .welcome {
-  height: 50%;
-  border-radius: 5px 5px 0 0;
+  height: 600px;
   width: $full;
   position: relative;
   overflow: hidden;
@@ -49,7 +47,28 @@
   animation: moveBounce 20s linear infinite normal;
 }
 
-/* Color changing */
+.featured {
+  width: $full;
+  min-height: 1000px;
+  @include flex($justify: flex-start);
+}
+.whoami {
+  @include flex($justify: flex-start);
+  width: 70%;
+  hr {
+    width: $full;
+  }
+
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  em {
+    margin-top: 10px;
+  }
+}
+
+//animations
 @keyframes colorShift {
   0% {
     color: #00e9f1;
@@ -68,7 +87,6 @@
   }
 }
 
-/* Fake bouncing movement */
 @keyframes moveBounce {
   0% {
     top: 40%;
