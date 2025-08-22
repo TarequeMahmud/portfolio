@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -12,7 +13,7 @@ const Page = () => {
         <div className="w-full h-[350px] bg-gradient-to-r from-[#176c94] to-[#092735] rounded-[35px] border-2 border-[#0068c9d2] flex justify-between cursor-pointer overflow-hidden">
           {/* Left Image */}
           <div className="flex items-center justify-center w-1/2 h-full">
-            <img
+            <Image
               src="/projects/vox.png"
               alt="Project preview"
               className="w-full h-full object-cover rounded-l-[35px]"
