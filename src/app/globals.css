@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+* {
+  @apply box-border;
+}
+
+html,
+body {
+  @apply m-0 p-0 w-full text-base;
+  scrollbar-width: none; /* Firefox hide scrollbar */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Optional: Hide scrollbar for Chrome, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}

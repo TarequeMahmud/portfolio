@@ -1,0 +1,48 @@
+@keyframes moveBounce {
+  0% {
+    top: 40%;
+    left: 0%;
+  }
+  25% {
+    top: 85%;
+    left: 30%;
+  }
+  50% {
+    top: 40%;
+    left: 60%;
+  }
+  75% {
+    top: 0%;
+    left: 30%;
+  }
+  100% {
+    top: 40%;
+    left: 0%;
+  }
+}
+
+@keyframes colorShift {
+  0% {
+    color: #00e9f1;
+  }
+  25% {
+    color: #ffcc00;
+  }
+  50% {
+    color: #0dff2d;
+  }
+  75% {
+    color: #e5d2ff;
+  }
+  100% {
+    color: #a5ff15;
+  }
+}
+
+.animate-moveBounce {
+  animation: moveBounce 20s linear infinite;
+}
+
+.animate-colorShift {
+  animation: colorShift 10s infinite alternate;
+}

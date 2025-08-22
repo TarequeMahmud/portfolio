@@ -1,10 +1,9 @@
 import logo from "@/app/favicon.ico";
-import styles from "./Logo.module.scss";
 import Image from "next/image";
 
 function Logo() {
   return (
-    <div className={styles["logo-container"]}>
+    <div className="ml-10 h-full w-[30%] flex flex-row justify-between items-center">
       <Image
         src={logo}
         height={50}
@@ -12,7 +11,9 @@ function Logo() {
         alt="Logo for my portfolio"
         unoptimized
       />
-      <h1>Tareque Mahmud</h1>
+      <h1 className="w-[90%] ml-5 text-2xl text-left text-white">
+        Tareque Mahmud
+      </h1>
     </div>
   );
 }
