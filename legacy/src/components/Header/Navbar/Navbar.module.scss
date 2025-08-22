@@ -1,0 +1,26 @@
+@use "@/styles/base" as *;
+.container {
+  width: 45%;
+  padding: 0;
+}
+
+.container ul {
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  @include flex(row, space-evenly);
+  flex-wrap: wrap;
+}
+
+.container li {
+  margin: 0;
+  font-size: 1.3rem;
+  list-style-type: none;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover {
+    color: #04c289;
+  }
+}

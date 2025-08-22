@@ -1,0 +1,58 @@
+@use "@/styles/base" as *;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.main {
+  min-width: 320px;
+  margin: 0 auto;
+  max-width: 1600px;
+  place-items: center;
+  background: linear-gradient(90deg, #0f172a, #132e5b);
+  height: 100%;
+  @include flex;
+}
+
+.container {
+  position: relative;
+  width: 98%;
+  border-radius: 7px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0.25px solid rgba(255, 255, 255, 0.3);
+  margin: 1rem auto;
+  min-height: 1400px;
+  @include flex;
+  gap: 1.5rem;
+  color: white;
+}
+.seperator {
+  width: 70%;
+}
+
+.footer {
+  min-height: 5rem;
+  width: 100%;
+  background-color: #0870a0;
+  @include flex(row);
+  color: rgb(255, 255, 255);
+}

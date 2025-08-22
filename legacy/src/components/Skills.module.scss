@@ -1,0 +1,76 @@
+@use "@/styles/base" as *;
+.container {
+  width: 75%;
+  padding: 5px;
+  height: auto;
+  margin: 2rem 0;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  padding: 15px;
+  gap: 40px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #ffffffdc;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.342),
+    0px 1px 3px rgba(0, 0, 0, 0.247);
+  color: black;
+  @include flex($justify: start);
+  div {
+    &:nth-of-type(1) {
+      margin-top: 10px;
+      @include flex(row);
+      gap: 20px;
+      width: $full;
+      height: 20%;
+      h2 {
+        font-size: 1.7rem;
+        font-weight: 500;
+      }
+    }
+
+    &:nth-of-type(2) {
+      width: 80%;
+      height: 35%;
+      padding: 0;
+      margin: 2px;
+      @include flex;
+
+      p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        height: $full;
+        width: $full;
+        text-align: justify;
+      }
+    }
+    &:nth-of-type(3) {
+      margin: 10px auto;
+      width: 90%;
+      height: 30px;
+      border: 1px solid rgb(0, 81, 255);
+      border-radius: 10px;
+      padding: 5px;
+      @include flex(row, flex-start);
+      .marker {
+        margin: 3px;
+        height: 70%;
+        background-color: rgb(6, 126, 126);
+      }
+    }
+  }
+
+  hr {
+    margin: 3px;
+    width: 90%;
+    height: 2px;
+    background-color: #7c7c7c;
+    border: none;
+  }
+}

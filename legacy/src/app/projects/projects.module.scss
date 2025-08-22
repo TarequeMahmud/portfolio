@@ -1,0 +1,100 @@
+@use "@/styles/base" as *;
+
+.container {
+  width: $full;
+  height: auto;
+  min-height: 600px;
+  padding: 20px;
+  @include flex;
+}
+
+.card-container {
+  margin: 50px auto;
+  width: 90%;
+  @include flex;
+  gap: 30px;
+}
+.card {
+  width: $full;
+  height: 500px;
+  background: linear-gradient(90deg, #32ade6 0%, #1c6080 100%);
+  border-radius: 35px;
+  @include flex(row, space-between);
+  cursor: pointer;
+}
+
+.heading {
+  margin: 20px auto 0;
+  height: 2.5rem;
+  color: black;
+}
+
+.card-container {
+  margin: 50px auto;
+  width: 90%;
+  @include flex;
+  gap: 30px;
+}
+
+.card {
+  width: $full;
+  height: 350px;
+  background: linear-gradient(90deg, #176c94 0%, #092735 100%);
+  border-radius: 35px;
+  border: #0068c9d2 2px solid;
+  @include flex(row, space-between);
+
+  cursor: pointer;
+}
+.title-desc-holder {
+  height: $full;
+  width: 50%;
+  border-radius: 0 35px 35px 0;
+
+  @include flex;
+  background-color: rgba($color: #212121, $alpha: 0.25);
+  padding-right: 20px;
+  div {
+    @include flex;
+    padding: 0;
+    margin-left: 15%;
+    height: 90%;
+    width: 80%;
+  }
+  p {
+    width: 100%;
+    text-align: justify;
+    font-size: 0.7;
+    font-weight: 400;
+  }
+  h2 {
+    width: 100%;
+  }
+}
+.img-holder {
+  @include flex;
+  height: 100%;
+  width: 50%;
+  gap: 5px;
+  img {
+    width: $full;
+    height: $full;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+  }
+}
+.property {
+  @include flex(row, flex-start);
+  padding: 2px;
+  gap: 8px;
+  width: 80%;
+  height: 20%;
+  border-radius: 11px;
+  background-color: rgba($color: #000000, $alpha: 0.61);
+  img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,111 @@
+@use "@/styles/base" as *;
+
+.home {
+  height: $full;
+  width: $full;
+}
+
+.welcome {
+  height: 600px;
+  width: $full;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+
+  h1,
+  p {
+    animation: colorShift 10s infinite alternate;
+    transition: color 1s ease-in-out;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.7rem;
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+  }
+}
+
+.bouncer {
+  margin: 0;
+  padding: 2px;
+  @include flex;
+  position: absolute;
+
+  height: 15%;
+  width: 40%;
+
+  animation: moveBounce 20s linear infinite normal;
+}
+
+.featured {
+  width: $full;
+  min-height: 1000px;
+  @include flex($justify: flex-start);
+}
+.whoami {
+  @include flex($justify: flex-start);
+  width: 70%;
+  hr {
+    width: $full;
+  }
+
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  em {
+    margin-top: 10px;
+  }
+}
+
+//animations
+@keyframes colorShift {
+  0% {
+    color: #00e9f1;
+  }
+  25% {
+    color: #ffcc00;
+  }
+  50% {
+    color: #0dff2d;
+  }
+  75% {
+    color: #e5d2ff;
+  }
+  100% {
+    color: #a5ff15;
+  }
+}
+
+@keyframes moveBounce {
+  0% {
+    top: 40%;
+    left: 0%;
+  }
+  25% {
+    top: 85%;
+    left: 30%;
+  }
+  50% {
+    top: 40%;
+    left: 60%;
+  }
+  75% {
+    top: 0%;
+    left: 30%;
+  }
+  100% {
+    top: 40%;
+    left: 0%;
+  }
+}
