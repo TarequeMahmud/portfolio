@@ -22,14 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={ibm.className}>
-        <div className="min-w-[320px] max-w-[1600px] mx-auto flex flex-col items-center bg-gradient-to-r from-slate-900 to-[#132e5b] h-full">
+        <div className="min-w-[320px] max-w-[1600px] mx-auto flex flex-col items-center bg-slate-950 text-white">
           <Header />
-          <div className="relative w-[98%] rounded-md bg-white/30 border border-white/30 my-4 min-h-[1400px] flex flex-col items-center gap-6 text-white">
+          <main className="relative w-[98%] rounded-md bg-white/5 border border-white/10 my-4 min-h-[1400px] flex flex-col items-center gap-6">
             {children}
-          </div>
-          <div className="min-h-[5rem] w-full bg-[#0870a0] flex flex-row justify-center items-center text-white">
+          </main>
+          <footer className="min-h-[5rem] w-full bg-[#0870a0] flex justify-center items-center text-gray-200">
             <p>This site is built with Next.js and TailwindCSS</p>
-          </div>
+          </footer>
         </div>
       </body>
     </html>

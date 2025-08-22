@@ -11,7 +11,7 @@ function Logo() {
         alt="Logo for my portfolio"
         unoptimized
       />
-      <h1 className="w-[90%] ml-5 text-2xl text-left text-white">
+      <h1 className="w-[90%] ml-5 text-2xl text-left text-white font-bold">
         Tareque Mahmud
       </h1>
     </div>
