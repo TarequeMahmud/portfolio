@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "ProtectedChat",
+    "tag": "Full Stack Project",
+    "image": "/projects/vox.png",
+    "description": "Enriched with Responsiveness, Title Prediction, Streaming Responses, History, Advanced Authentications, Temporary Chat and more.",
+    "techStack": "Built with Next.js, Redux, PostgreSQL, Tailwind, Redis, JWT, GitHub Actions (CI/CD), and Docker."
+  },
+  {
+    "id": 2,
+    "title": "MediChoice AI",
+    "tag": "AI + Healthcare",
+    "image": "/projects/medichoice.png",
+    "description": "AI-powered clinic management app with doctor suggestions, appointment booking, and advanced search.",
+    "techStack": "Built with Next.js, NestJS, PostgreSQL, Tailwind, Prisma, and Gemini API."
+  }
+]
