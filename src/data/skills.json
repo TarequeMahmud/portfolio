@@ -9,13 +9,13 @@
     {
       "name": "TypeScript",
       "description": "Used in modern projects for type safety and better scalability in frontend and backend.",
-      "experience_level": 40,
+      "experience_level": 90,
       "icon": "/skills/typescript.png"
     },
     {
       "name": "Next.js",
       "description": "Built SSR/SSG applications, API routes, and optimized performance.",
-      "experience_level": 50,
+      "experience_level": 80,
       "icon": "/skills/next.svg"
     },
     {
@@ -69,7 +69,7 @@
     {
       "name": "Socket.io",
       "description": "Integrated real-time bidirectional communication in web applications.",
-      "experience_level": 40,
+      "experience_level": 70,
       "icon": "/skills/socket.svg"
     },
     {
@@ -93,19 +93,19 @@
     {
       "name": "ER Design",
       "description": "Created efficient database schemas and relational models.",
-      "experience_level": 40,
+      "experience_level": 60,
       "icon": "/skills/erd.png"
     },
     {
       "name": "Docker",
       "description": "Containerized applications for seamless deployment and scalability.",
-      "experience_level": 20,
+      "experience_level": 600,
       "icon": "/skills/docker.png"
     },
     {
       "name": "CI/CD",
       "description": "Automated CI/CD workflows for testing and deployment.",
-      "experience_level": 30,
+      "experience_level": 70,
       "icon": "/skills/github.png"
     },
     {
