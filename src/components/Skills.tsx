@@ -3,14 +3,14 @@ import skillsdata from "@/data/skills.json";
 
 const Skills = () => {
   return (
-    <div className="w-[70%] flex flex-col items-center justify-start">
+    <div className="w-[80%] flex flex-col items-center justify-start">
       <h1 className="text-3xl font-bold mt-5">SKILLS:</h1>
       <hr className="w-full my-2" />
       <div className="w-full my-8 grid grid-cols-3 justify-items-center gap-10 p-4">
         {skillsdata.skills.map((item, index) => (
           <div
             key={index}
-            className="w-[250px] h-[250px] bg-white/90 border border-white rounded-xl shadow-md shadow-black/30 text-black flex flex-col justify-start items-center"
+            className="w-[300px] h-[300px] bg-white/90 border border-white rounded-xl shadow-md shadow-black/30 text-black flex flex-col justify-start items-center"
           >
             {/* Top Section */}
             <div className="mt-2 flex flex-row items-center justify-center gap-5 w-full h-[20%]">
@@ -28,7 +28,7 @@ const Skills = () => {
 
             {/* Description Section */}
             <div className="w-4/5 h-[35%] m-1 flex items-center justify-center">
-              <p className="text-[0.7rem] font-normal text-justify w-full h-full">
+              <p className="text-[0.8rem] font-normal text-justify w-full h-full">
                 {item.description}
               </p>
             </div>

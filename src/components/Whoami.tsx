@@ -1,6 +1,6 @@
 const Whoami = () => {
   return (
-    <div className="w-[70%] flex flex-col items-center justify-start mt-10">
+    <div className="w-[80%] flex flex-col items-center justify-start mt-10">
       <h1 className="text-3xl font-bold">Who am I</h1>
       <hr className="w-full my-2" />
       <em className="mt-2">
