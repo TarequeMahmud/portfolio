@@ -4,6 +4,10 @@
     { "name": "Projects", "link": "/projects" },
     { "name": "Resources", "link": "/resources" },
     { "name": "About", "link": "/about" },
-    { "name": "Contact", "link": "/contact" }
+    {
+      "name": "Talk to Vox AI",
+      "link": "https://vox-chat-ai.vercel.app",
+      "type": "external"
+    }
   ]
 }
