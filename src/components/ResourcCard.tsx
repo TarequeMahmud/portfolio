@@ -10,7 +10,7 @@ type Resource = {
 const ResourceCard = ({ resource }: { resource: Resource }) => {
   return (
     <div
-      className={`w-full max-w-3xl bg-gradient-to-r ${resource.gradient} rounded-2xl border-2 border-[#0068c9d2] shadow-lg cursor-pointer hover:scale-[1.02] transition-transform overflow-hidden p-6 space-y-4`}
+      className={`w-full max-w-3xl bg-gradient-to-r ${resource.gradient} rounded-2xl border-2 border-[#ffffff] shadow-lg cursor-pointer hover:scale-[1.02] transition-transform overflow-hidden p-6 space-y-4`}
     >
       {/* Category */}
       <span className="inline-block px-3 py-1 text-sm font-medium bg-black/60 text-white rounded-md">

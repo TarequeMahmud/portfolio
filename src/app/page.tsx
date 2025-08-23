@@ -2,23 +2,20 @@
 
 import GotoSection from "@/components/GotoSection";
 import LetsTalk from "@/components/LetsTalk";
+import PageWrapper from "@/components/PageWrapper";
 import Welcome from "@/components/Welcome";
 import Whoami from "@/components/Whoami";
 
 export default function Home() {
   return (
-    <div className="w-full h-full">
-      {/* Welcome Section */}
+    <PageWrapper>
       <Welcome />
 
-      <div className="w-full min-h-[1000px] flex flex-col items-center justify-start gap-8 mt-10">
-        <Whoami />
+      <Whoami />
 
-        {/* Navigation Buttons */}
-        <GotoSection />
+      <GotoSection />
 
-        <LetsTalk />
-      </div>
-    </div>
+      <LetsTalk />
+    </PageWrapper>
   );
 }

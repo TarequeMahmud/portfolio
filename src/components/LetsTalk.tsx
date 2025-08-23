@@ -50,7 +50,7 @@ const LetsTalk = () => {
       className="w-[80%] flex flex-col items-center py-16 text-white"
       id="letstalk"
     >
-      <h1 className="text-3xl font-bold mt-5">LET&#39;S TALK:</h1>
+      <h1 className="text-3xl font-bold mt-5">LET&#39;S TALK</h1>
       <p className="text-gray-300 text-center max-w-xl">
         Feel free to reach out to me directly or send a message using the form
         below.

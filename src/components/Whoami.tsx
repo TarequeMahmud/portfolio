@@ -1,10 +1,24 @@
 import summaries from "@/data/summaries.json";
-const Whoami = () => {
+
+interface WhoamiProps {
+  title?: string;
+  showTitle?: boolean;
+}
+
+const Whoami = ({ title = "WHO AM I", showTitle = true }: WhoamiProps) => {
   return (
-    <div className="w-[80%] flex flex-col items-center justify-start mt-10">
-      <h1 className="text-3xl font-bold">WHO AM I</h1>
-      <hr className="w-full my-2" />
-      <div className="w-full rounded-lg p-6">
+    <div
+      className={`w-[80%] flex flex-col items-center justify-start ${
+        showTitle && "mt-10"
+      }`}
+    >
+      {showTitle && (
+        <>
+          <h1 className="text-3xl font-bold">{title}</h1>
+          <hr className="w-full my-2" />
+        </>
+      )}
+      <div className={`w-full rounded-lg  ${showTitle && "p-6"}`}>
         <ul className="list-disc text-[1.3rem] text-justify mt-2 space-y-2 pl-6">
           {summaries.map((summary, idx) => (
             <li key={idx}>

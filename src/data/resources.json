@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Django REST Framework Tutorial",
+    "title": "Django REST Framework Tutorial Project",
     "description": "Learn how to build a fully functional REST API using Django REST Framework. Covers models, serializers, views, routers, and authentication.",
     "link": "https://www.django-rest-framework.org/tutorial/quickstart/",
     "category": "Backend",
@@ -46,5 +46,13 @@
     "link": "https://www.postgresql.org/docs/",
     "category": "Database",
     "gradient": "from-[#000046] to-[#1cb5e0]"
+  },
+  {
+    "id": 7,
+    "title": "Django Official Tutorial: Writing your first Django app",
+    "description": "Step-by-step guide to building a simple poll application using Django. Covers project setup, models, views, templates, and admin.",
+    "link": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+    "category": "Backend",
+    "gradient": "from-[#092e20] to-[#1b5e20]"
   }
 ]
