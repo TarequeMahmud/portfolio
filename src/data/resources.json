@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Django REST Framework Tutorial",
+    "description": "Learn how to build a fully functional REST API using Django REST Framework. Covers models, serializers, views, routers, and authentication.",
+    "link": "https://www.django-rest-framework.org/tutorial/quickstart/",
+    "category": "Backend",
+    "gradient": "from-[#176c94] to-[#092735]"
+  },
+  {
+    "id": 2,
+    "title": "NestJS Docs",
+    "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+    "link": "https://docs.nestjs.com/",
+    "category": "Backend",
+    "gradient": "from-[#5e2266] to-[#290020]"
+  },
+  {
+    "id": 3,
+    "title": "Next.js Docs",
+    "description": "Learn how to build modern fullstack apps with Next.js including SSR, SSG, API routes, and more.",
+    "link": "https://nextjs.org/docs",
+    "category": "Frontend",
+    "gradient": "from-[#0f2027] to-[#203a43] to-[#2c5364]"
+  },
+  {
+    "id": 4,
+    "title": "FastAPI Tutorial",
+    "description": "Modern, fast (high-performance) Python web framework for building APIs with automatic validation & docs.",
+    "link": "https://fastapi.tiangolo.com/tutorial/",
+    "category": "Backend",
+    "gradient": "from-[#42275a] to-[#734b6d]"
+  },
+  {
+    "id": 5,
+    "title": "MDN Web Docs",
+    "description": "Comprehensive resource for HTML, CSS, and JavaScript web development reference and tutorials.",
+    "link": "https://developer.mozilla.org/",
+    "category": "Frontend",
+    "gradient": "from-[#355c7d] to-[#6c5b7b] to-[#c06c84]"
+  },
+  {
+    "id": 6,
+    "title": "PostgreSQL Docs",
+    "description": "The official PostgreSQL documentation with tutorials, SQL reference, and best practices.",
+    "link": "https://www.postgresql.org/docs/",
+    "category": "Database",
+    "gradient": "from-[#000046] to-[#1cb5e0]"
+  }
+]
