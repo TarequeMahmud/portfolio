@@ -23,19 +23,25 @@
 
 @keyframes colorShift {
   0% {
-    color: #00e9f1;
+    color: #eba7ff;
   }
-  25% {
-    color: #ffcc00;
+  16% {
+    color: #ff21ec;
+  }
+  33% {
+    color: #00b7ff;
   }
   50% {
-    color: #0dff2d;
+    color: #00ff00;
   }
-  75% {
-    color: #e5d2ff;
+  66% {
+    color: #ffff00;
+  }
+  83% {
+    color: #ff7f00;
   }
   100% {
-    color: #a5ff15;
+    color: #ff0000;
   }
 }
 

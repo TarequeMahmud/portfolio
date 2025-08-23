@@ -10,7 +10,7 @@ const Skills = () => {
         {skillsdata.skills.map((item, index) => (
           <div
             key={index}
-            className="w-[300px] h-[300px] bg-white/90 border border-white rounded-xl shadow-md shadow-black/30 text-black flex flex-col justify-start items-center"
+            className="w-[250px] h-[250px] bg-white/90 border border-white rounded-xl shadow-md shadow-black/30 text-black flex flex-col justify-start items-center"
           >
             {/* Top Section */}
             <div className="mt-2 flex flex-row items-center justify-center gap-5 w-full h-[20%]">
@@ -28,12 +28,12 @@ const Skills = () => {
 
             {/* Description Section */}
             <div className="w-4/5 h-[35%] m-1 flex items-center justify-center">
-              <p className="text-[0.8rem] font-normal text-justify w-full h-full">
+              <p className="text-[0.9rem] font-normal text-justify w-full h-full">
                 {item.description}
               </p>
             </div>
 
-            <hr className="my-1 w-[90%] h-[2px] bg-gray-500 border-0" />
+            <hr className="my-3 w-[90%] h-[2px] bg-gray-500 border-0" />
 
             {/* Progress Bar */}
             <div className="my-2 w-[90%] h-[30px] border border-blue-600 rounded-lg p-1 flex items-center">

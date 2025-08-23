@@ -19,6 +19,11 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape on iOS */
+  -ms-text-size-adjust: 100%; /* Prevent font scaling in IE */
+}
 
 /* Optional: Hide scrollbar for Chrome, Safari */
 body::-webkit-scrollbar {

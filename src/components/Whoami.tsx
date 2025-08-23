@@ -4,7 +4,7 @@ const Whoami = () => {
       <h1 className="text-3xl font-bold">WHO AM I</h1>
       <hr className="w-full my-2" />
       <div className="w-full rounded-lg p-6 shadow-md">
-        <ul className="list-disc text-[1.2rem] text-justify mt-2 space-y-2 pl-6">
+        <ul className="list-disc text-[1.3rem] text-justify mt-2 space-y-2 pl-6">
           <li>
             <span className="font-semibold text-[#b7fa00]">
               Full Stack Web Developer

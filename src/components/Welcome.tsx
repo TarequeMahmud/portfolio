@@ -8,8 +8,9 @@ const Welcome = () => {
         <p className="text-xl sm:text-2xl font-normal animate-colorShift transition-colors duration-1000 ease-in-out text-center">
           I build full stack web applications.
           <br />
-          <span className="text-[1.3rem]">
-            Next.js React | Nest, Express | Django, FastAPI
+          <span className="text-[1.1rem]">
+            Next.js, React | Nest, Express | Django, FastAPI | SQL, MongoDB |
+            Docker, AWS
           </span>
         </p>
       </div>
