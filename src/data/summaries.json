@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Full Stack Web Developer",
+    "description": "experienced in building secure, scalable, and performant web applications."
+  },
+  {
+    "text": "Frontend & Backend",
+    "description": "Proficient in React, Next.js, Node.js, Django, and FastAPI, along with SQL and NoSQL databases."
+  },
+  {
+    "text": "Authentication & AI",
+    "description": "Skilled in implementing authentication, authorization, and AI integration in production-ready apps."
+  },
+  {
+    "text": "Modern Tools",
+    "description": "Hands-on with frontend frameworks, backend APIs, databases, containerization, and automated testing."
+  },
+  {
+    "text": "Deployment",
+    "description": "Deployed applications to AWS and other platforms via CI/CD pipelines, integrating automated tests."
+  },
+  {
+    "text": "Agile & Project Management",
+    "description": "Familiar with agile practices and tools like JIRA and GitHub Projects, with basic Scrum exposure."
+  },
+  {
+    "text": "Fast Learner",
+    "description": "Adaptable to new frameworks, tools, and workflows."
+  }
+]
