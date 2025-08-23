@@ -5,9 +5,13 @@
     { "name": "Resources", "link": "/resources" },
     { "name": "About", "link": "/about" },
     {
-      "name": "Talk to Vox AI",
+      "name": "Vox AI",
       "link": "https://vox-chat-ai.vercel.app",
       "type": "external"
+    },
+    {
+      "name": "Let's Talk",
+      "link": "/#letstalk"
     }
   ]
 }
