@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type Project = {
   id: number;
@@ -12,10 +13,11 @@ type Project = {
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div
+    <Link
       className={`w-[90%] max-w-2xl bg-gradient-to-r ${project.gradient} 
       rounded-2xl border-4 border-[#ffffffde] shadow-lg overflow-hidden 
       cursor-pointer hover:scale-[1.02] transition-transform`}
+      href={`/projects/${project.id}`}
     >
       {/* Image */}
       <div className="w-full aspect-[16/9] relative">
@@ -43,7 +45,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 
         <p className="text-gray-300 text-xs italic">{project.techStack}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 
