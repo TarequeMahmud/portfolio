@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "ProtectedChat",
+    "title": "Vox",
     "tag": "Full Stack Project",
     "image": "/projects/vox.png",
     "description": "Enriched with Responsiveness, Title Prediction, Streaming Responses, History, Advanced Authentications, Temporary Chat and more.",
@@ -19,9 +19,9 @@
   },
   {
     "id": 3,
-    "title": "CollabTask",
+    "title": "GitCollab.io",
     "tag": "Project Management",
-    "image": "/projects/collabtask.png",
+    "image": "/projects/gitcollab.png",
     "description": "Created a project management platform enabling task assignment, file submissions, and audit tracking. Implemented role-based permissions for admins and collaborators.",
     "techStack": "Built with React (Vite), Node.js, Express.js, MongoDB, SCSS, and Passport.js.",
     "gradient": "from-amber-600 to-rose-800"

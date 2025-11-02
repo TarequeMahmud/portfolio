@@ -1,0 +1,212 @@
+{
+    "projectDetails": [
+        {
+            "id": 1,
+            "title": "VOX",
+            "subtitle": "A Realtime Chat Web Application",
+            "role": "Independent Developer",
+            "image": "/projects/vox.png",
+            "description": [
+                {
+                    "highlight": "AI Chat Application",
+                    "text": "providing a feeling like ChatGPT or Gemini."
+                },
+                {
+                    "highlight": "Conversational AI Interface",
+                    "text": "Powered by Gemini 2.0 Flash for smarter, faster responses."
+                },
+                {
+                    "highlight": "Advanced Authentication System",
+                    "text": "Includes OTP-based registration, password recovery, and JWT-based secure session management. Utilizes Redis for caching and fast token validation."
+                },
+                {
+                    "highlight": "Real-Time Chat UX",
+                    "text": "Typing simulation and quick response rendering for a human-like interaction."
+                },
+                {
+                    "highlight": "Context-Aware Messaging",
+                    "text": "Uses history management with Redux and PostgreSQL to send chat history to the model and enable context-aware replies."
+                },
+                {
+                    "highlight": "Streamed Response",
+                    "text": "Uses Redux Toolkit and the ReadableStream API to stream responses from the model in real-time."
+                },
+                {
+                    "highlight": "Title Prediction",
+                    "text": "Automatically generates a chat title based on the first message."
+                },
+                {
+                    "highlight": "Temporary Chats",
+                    "text": "Start disposable chat sessions that are not saved to your account or database, ensuring private, instant conversations."
+                },
+                {
+                    "highlight": "Search Messages",
+                    "text": "Search through chat history with PostgreSQL full-text search capabilities."
+                },
+                {
+                    "highlight": "Dynamic Routing",
+                    "text": "Chat sessions stored via clean URL slugs like /chat/[chatId]."
+                },
+                {
+                    "highlight": "Responsive Design",
+                    "text": "Pixel-perfect across desktop and mobile devices using Tailwind CSS."
+                },
+                {
+                    "highlight": "PostgreSQL Backend",
+                    "text": "Persistent chat history stored in PostgreSQL (or any SQL-based DB)."
+                },
+                {
+                    "highlight": "Serverless Architecture",
+                    "text": "Next.js App Router API routes — zero Express or custom servers required."
+                },
+                {
+                    "highlight": "Built With",
+                    "text": "Next.js, Redux, PostgreSQL, Tailwind, Redis, JWT, GitHub Actions (CI/CD), and Docker."
+                }
+            ],
+            "techStack": [
+                "Next.js",
+                "Redux",
+                "PostgreSQL",
+                "Tailwind",
+                "Redis",
+                "JWT",
+                "Docker"
+            ],
+            "github": "https://github.com/TarequeMahmud/vox",
+            "live": "https://vox-chat-ai.vercel.app"
+        },
+        {
+            "id": 2,
+            "title": "Medichoice.AI",
+            "subtitle": "An AI-Powered Doctor Appointment & Clinic Management Platform",
+            "role": "Independent Full Stack Developer",
+            "image": "/projects/medichoice.png",
+            "description": [
+                {
+                    "highlight": "AI-Driven Healthcare Platform",
+                    "text": "Helps patients find suitable doctors through intelligent recommendations powered by custom AI logic."
+                },
+                {
+                    "highlight": "Role-Based Access Control (RBAC)",
+                    "text": "Implements secure access for patients, doctors, and admins with distinct privileges and dashboards."
+                },
+                {
+                    "highlight": "Appointment Scheduling System",
+                    "text": "Patients can book, modify, and cancel appointments while doctors manage their schedules efficiently."
+                },
+                {
+                    "highlight": "Medical Record Management",
+                    "text": "Securely stores and retrieves patient records and reports using PostgreSQL with access restrictions."
+                },
+                {
+                    "highlight": "Real-Time Messaging System",
+                    "text": "Facilitates seamless doctor-patient communication with instant message delivery and status updates."
+                },
+                {
+                    "highlight": "AI Recommendations",
+                    "text": "Analyzes patient input and symptoms to suggest the most relevant specialists using integrated AI APIs."
+                },
+                {
+                    "highlight": "Secure APIs",
+                    "text": "Built with NestJS and protected using JWT authentication and middleware for data validation and security."
+                },
+                {
+                    "highlight": "Testing & Quality Assurance",
+                    "text": "Integrated Jest and Supertest for automated backend testing, ensuring reliability before every deployment."
+                },
+                {
+                    "highlight": "Comprehensive CI/CD Pipeline",
+                    "text": "Automated build, test, and deployment pipelines with GitHub Actions and AWS for zero-downtime delivery."
+                },
+                {
+                    "highlight": "Deployment Architecture",
+                    "text": "Frontend and backend deployed separately on AWS (EC2, Amplify, RDS) with containerized environments using Docker."
+                },
+                {
+                    "highlight": "API Documentation",
+                    "text": "Used Swagger UI for developer-friendly REST API documentation and collaboration."
+                },
+                {
+                    "highlight": "Responsive UI",
+                    "text": "Optimized for patients and doctors on all devices with a professional, medical-grade interface using Tailwind CSS."
+                },
+                {
+                    "highlight": "Built With",
+                    "text": "NestJS, PostgreSQL, TypeORM, Next.js, Redux, Tailwind, Redis, JWT, Jest, Swagger, GitHub Actions, and AWS."
+                }
+            ],
+            "techStack": [
+                "NestJS",
+                "PostgreSQL",
+                "TypeORM",
+                "Next.js",
+                "Redux",
+                "Tailwind",
+                "Redis",
+                "JWT",
+                "Jest",
+                "Swagger",
+                "AWS"
+            ],
+            "github": "https://github.com/TarequeMahmud/medichoice.ai",
+            "live": "https://medichoice-ai.vercel.app"
+        },
+        {
+            "id": 3,
+            "title": "GitCollab.io",
+            "subtitle": "A Collaborative GitHub Project Management Platform",
+            "role": "Independent Developer",
+            "image": "/projects/gitcollab.png",
+            "description": [
+                {
+                    "highlight": "Agile-Inspired SaaS Platform",
+                    "text": "Designed for collaborative project management with task assignment, file submissions, and audit tracking."
+                },
+                {
+                    "highlight": "Role-Based Access Control (RBAC)",
+                    "text": "Implemented secure JWT authentication with multi-level access for admins, project managers, and developers."
+                },
+                {
+                    "highlight": "Migration to Scalable Stack",
+                    "text": "Refactored from MERN Stack to Next.js, Django REST Framework, and PostgreSQL, improving scalability and maintainability by 50%."
+                },
+                {
+                    "highlight": "Comprehensive REST API",
+                    "text": "Delivered a well-documented REST API using Swagger UI for smooth frontend-backend integration."
+                },
+                {
+                    "highlight": "Real-Time Collaboration",
+                    "text": "Enabled real-time task updates, comments, and status synchronization for improved teamwork."
+                },
+                {
+                    "highlight": "Audit Trail System",
+                    "text": "Tracked every activity (task creation, update, assignment) to ensure accountability and transparency."
+                },
+                {
+                    "highlight": "CI/CD Deployment",
+                    "text": "Deployed frontend on Vercel and backend on AWS EC2 with Nginx reverse proxy and automated GitHub Actions CI/CD."
+                },
+                {
+                    "highlight": "Secure and Performant",
+                    "text": "Enhanced app security by 40% through optimized authentication and API protection."
+                },
+                {
+                    "highlight": "Built With",
+                    "text": "Next.js, Django REST Framework, PostgreSQL, TailwindCSS, JWT Auth, AWS, and Swagger."
+                }
+            ],
+            "techStack": [
+                "Next.js",
+                "Django REST Framework",
+                "PostgreSQL",
+                "TailwindCSS",
+                "JWT",
+                "AWS",
+                "Swagger"
+            ],
+            "github": "https://github.com/TarequeMahmud/gitcollab.io",
+            "live": "https://gitcollab-io.vercel.app"
+        }
+    ]
+}
