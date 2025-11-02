@@ -3,18 +3,22 @@
     top: 40%;
     left: 0%;
   }
+
   25% {
     top: 85%;
     left: 25%;
   }
+
   50% {
     top: 40%;
     left: 50%;
   }
+
   75% {
     top: 0%;
     left: 25%;
   }
+
   100% {
     top: 40%;
     left: 0%;
@@ -25,21 +29,27 @@
   0% {
     color: #eba7ff;
   }
+
   16% {
     color: #ff21ec;
   }
+
   33% {
     color: #00b7ff;
   }
+
   50% {
     color: #00ff00;
   }
+
   66% {
     color: #ffff00;
   }
+
   83% {
     color: #ff7f00;
   }
+
   100% {
     color: #ff0000;
   }
@@ -51,4 +61,37 @@
 
 .animate-colorShift {
   animation: colorShift 10s infinite alternate;
+}
+
+
+@media (max-width: 640px) {
+  .animate-moveBounce {
+    /* use transform-based animation so it doesn't rely on absolute left/top that could overflow */
+    animation: moveBounceMobile 12s linear infinite;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90% !important;
+  }
+
+  /* Slightly reduce color shift speed on tiny screens for readability */
+  .animate-colorShift {
+    animation: colorShift 12s infinite alternate;
+  }
+
+  /* make sure huge text doesn't overflow */
+  /* h1 {
+    font-size: 1.6rem !important;
+  }
+
+  p {
+    font-size: 0.95rem !important;
+  } */
+}
+
+/* medium screens slight adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .animate-moveBounce {
+    animation-duration: 16s;
+  }
 }
