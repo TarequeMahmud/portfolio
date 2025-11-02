@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="relative bg-black">
+    <nav className="relative">
       {/* Desktop Navbar */}
       <ul className="hidden md:flex flex-row gap-8 pr-5">
         {navbarItems.navbarItems.map((item, index) => (
@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       <ul
         ref={menuRef}
-        className={`fixed top-0 right-0 h-full w-[220px] bg-black/90 backdrop-blur-md flex flex-col items-center gap-6 pt-[80px] transition-transform duration-300 md:hidden z-40
+        className={`fixed top-0 right-0 h-full w-[220px] bg-black/90 backdrop-blur-md flex flex-col items-center gap-6 pt-20 transition-transform duration-300 md:hidden z-40
           ${isOpen ? "translate-x-0" : "translate-x-full"}
         `}
       >

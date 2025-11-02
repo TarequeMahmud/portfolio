@@ -3,33 +3,21 @@ import skillsdata from "@/data/skills.json";
 
 const Skills = () => {
   return (
-    <section className="w-[90%] sm:w-[85%] md:w-[80%] flex flex-col items-center justify-start py-6">
+    <section className="w-[90%] sm:w-[85%] md:w-full flex flex-col items-center justify-start py-6">
       <h1 className="text-2xl sm:text-3xl font-bold mt-4 text-center">SKILLS:</h1>
       <hr className="w-full my-2 border-gray-600" />
 
       {/* Grid Layout */}
       <div
         className="
-          w-full my-6
-          grid 
-          grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
-          justify-items-center
-          gap-6 sm:gap-8 md:gap-10
-          p-2 sm:p-4
+          w-full my-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 sm:gap-8 md:gap-10 p-2 sm:p-4
         "
       >
         {skillsdata.skills.map((item, index) => (
           <div
             key={index}
             className="
-              w-full sm:w-[260px] md:w-[280px]
-              min-h-[260px] sm:min-h-[270px]
-              bg-white/90 
-              border border-white rounded-xl 
-              shadow-md shadow-black/30 
-              text-black 
-              flex flex-col items-center 
-              hover:scale-[1.02] transition-transform duration-200
+              w-full sm:w-[260px] md:w-[280px] min-h-[260px] sm:min-h-[270px] bg-white/90 border border-white rounded-xl shadow-md shadow-black/30 text-black flex flex-col items-center hover:scale-[1.02] transition-transform duration-200
             "
           >
             {/* Top Section */}
