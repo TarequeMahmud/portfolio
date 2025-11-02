@@ -1,30 +1,34 @@
 [
   {
     "text": "Full Stack Web Developer",
-    "description": "experienced in building secure, scalable, and performant web applications."
+    "description": "Experienced in designing and developing secure, scalable, and production-grade web applications that combine strong backend logic with seamless frontend experiences."
   },
   {
-    "text": "Frontend & Backend",
-    "description": "Proficient in React, Next.js, Node.js, Django, and FastAPI, along with SQL and NoSQL databases."
+    "text": "Frontend & Backend Expertise",
+    "description": "Proficient in React, Next.js, Node.js, NestJS, Django REST Framework, and FastAPI — capable of building performant REST and serverless APIs, as well as dynamic, responsive UIs."
   },
   {
-    "text": "Authentication & AI",
-    "description": "Skilled in implementing authentication, authorization, and AI integration in production-ready apps."
+    "text": "Authentication, Authorization & AI Integration",
+    "description": "Specialized in implementing robust JWT-based authentication systems, role-based access control (RBAC), and AI-driven features powered by Gemini, OpenAI, and custom ML logic."
   },
   {
-    "text": "Modern Tools",
-    "description": "Hands-on with frontend frameworks, backend APIs, databases, containerization, and automated testing."
+    "text": "Modern Development Practices",
+    "description": "Hands-on with TypeScript, containerization using Docker, database design (PostgreSQL, MongoDB), and automated testing pipelines using Jest and Supertest."
   },
   {
-    "text": "Deployment",
-    "description": "Deployed applications to AWS and other platforms via CI/CD pipelines, integrating automated tests."
+    "text": "Deployment & DevOps",
+    "description": "Deployed and managed applications on AWS (EC2, Amplify, RDS, Lambda) and Vercel using GitHub Actions CI/CD, ensuring reliability, test automation, and continuous delivery."
   },
   {
-    "text": "Agile & Project Management",
-    "description": "Familiar with agile practices and tools like JIRA and GitHub Projects, with basic Scrum exposure."
+    "text": "Agile & Team Collaboration",
+    "description": "Well-versed in agile workflows with tools like JIRA and GitHub Projects, applying Scrum-based sprint planning and task management for efficient project execution."
   },
   {
-    "text": "Fast Learner",
-    "description": "Adaptable to new frameworks, tools, and workflows."
+    "text": "Quality & Documentation",
+    "description": "Maintains high code quality through unit testing, debugging, and API documentation with Swagger and Postman for smooth developer collaboration."
+  },
+  {
+    "text": "Adaptable & Growth-Oriented",
+    "description": "Quick learner who rapidly adapts to new frameworks, workflows, and emerging technologies in the web ecosystem."
   }
 ]
