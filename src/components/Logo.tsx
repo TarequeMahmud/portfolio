@@ -1,12 +1,12 @@
-import logo from "@/app/favicon.ico";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "@/app/favicon.ico";
 
 function Logo() {
   return (
     <Link
       href="/"
-      className="ml-10 h-full w-[30%] flex flex-row justify-between items-center"
+      className="flex items-center gap-4 pl-3 cursor-pointer"
     >
       <Image
         src={logo}
@@ -15,7 +15,7 @@ function Logo() {
         alt="Logo for my portfolio"
         unoptimized
       />
-      <h1 className="w-[90%] ml-5 text-2xl text-left text-white font-bold">
+      <h1 className="text-2xl font-bold text-white whitespace-nowrap">
         Tareque Mahmud
       </h1>
     </Link>
