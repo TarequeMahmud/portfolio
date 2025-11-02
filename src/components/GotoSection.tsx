@@ -23,21 +23,33 @@ const sections = [
 
 const GotoSection = () => {
   return (
-    <div className="w-[70%] flex flex-wrap justify-around gap-6 mt-20">
+    <section className="w-[90%] sm:w-[85%] md:w-[70%] flex flex-wrap justify-center md:justify-around gap-4 sm:gap-6 mt-10 sm:mt-16">
       {sections.map((section, idx) => (
         <Link key={idx} href={section.href} passHref>
           <div
-            className={`group relative flex items-center px-8 py-4 text-xl font-bold text-white rounded-2xl bg-gradient-to-r ${section.color} shadow-lg overflow-hidden transition-transform hover:scale-105 cursor-pointer`}
+            className={`
+              group relative flex items-center justify-center
+              w-full sm:w-[80%] md:w-auto 
+              px-6 sm:px-8 py-3 sm:py-4 
+              text-lg sm:text-xl font-semibold sm:font-bold text-white 
+              rounded-2xl 
+              bg-linear-to-r ${section.color}
+              shadow-lg overflow-hidden
+              transition-transform duration-300 
+              hover:scale-105 active:scale-95 cursor-pointer
+            `}
           >
             {section.name}
-            <span className="ml-4 inline-block transition-transform duration-300 group-hover:translate-x-2">
+            <span className="ml-3 sm:ml-4 inline-block transition-transform duration-300 group-hover:translate-x-2">
               <FaArrowRight />
             </span>
-            <span className="absolute bottom-0 left-0 w-0 h-1 bg-white rounded-full transition-all duration-300 group-hover:w-full"></span>
+
+            {/* Animated underline */}
+            <span className="absolute bottom-0 left-0 w-0 h-1 bg-white rounded-full transition-all duration-300 group-hover:w-full" />
           </div>
         </Link>
       ))}
-    </div>
+    </section>
   );
 };
 

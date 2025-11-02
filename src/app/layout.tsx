@@ -24,10 +24,28 @@ export default function RootLayout({
     <html lang="en">
       <body className={ibm.className}>
         <div className="min-w-[320px] max-w-[1600px] mx-auto flex flex-col items-center bg-slate-950 text-white">
+          {/* Header */}
           <Header />
-          <main className="relative w-[98%] rounded-md bg-white/5 border border-white/10 my-4 min-h-[1400px] flex flex-col items-center gap-6">
+
+          {/* Main Content */}
+          <main
+            className="
+              relative 
+              w-[95%] sm:w-[96%] md:w-[98%] 
+              rounded-md 
+              bg-white/5 
+              border border-white/10 
+              my-4 
+              min-h-screen 
+              flex flex-col items-center 
+              gap-6 
+              p-3 sm:p-5 md:p-8
+            "
+          >
             {children}
           </main>
+
+          {/* Footer */}
           <Footer />
         </div>
       </body>
