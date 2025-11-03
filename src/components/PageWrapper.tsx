@@ -19,7 +19,7 @@ const PageWrapper: React.FC<PageWrapperProps> = ({
   return (
     <div
       className={`
-        w-[95%] sm:w-[92%] md:w-[90%] lg:w-[85%] ${minHClass} 
+        w-full ${minHClass} 
         p-4 sm:p-6 md:p-8 flex flex-col items-center mx-auto my-2 gap-6
       `}
     >
@@ -29,7 +29,7 @@ const PageWrapper: React.FC<PageWrapperProps> = ({
             {title}
           </h1>
           {subtitle && (
-            <p className="mt-0 mb-0 text-sm sm:text-base text-center text-gray-300">
+            <p className="mt-0 mb-0 text-sm sm:text-lg text-center text-gray-300">
               {subtitle}
             </p>
           )}

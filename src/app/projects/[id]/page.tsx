@@ -55,8 +55,8 @@ const ProjectPage = () => {
         </p>
 
         {/* --- DESCRIPTION --- */}
-        <div className="w-full max-w-4xl rounded-lg p-4 sm:p-6 bg-white/5 border border-white/10">
-          <ul className="list-disc text-[1rem] sm:text-[1.15rem] md:text-[1.25rem] text-justify mt-2 space-y-3 pl-5 sm:pl-6 leading-relaxed">
+        <div className="w-full max-w-5xl rounded-lg p-4 sm:p-6 bg-white/5 border border-white/10">
+          <ul className="list-disc text-sm sm:text-[1.15rem] md:text-[1.25rem] text-justify mt-2 space-y-3 pl-5 sm:pl-6 leading-relaxed">
             {project.description.map((point, idx) => (
               <li key={idx}>
                 {point.highlight && (
